@@ -3,9 +3,18 @@ body {
 }
 
 .heroBannerJumbotron {
-  background-image:url("../images/homebanner.png");
   margin-top:-20px !important;
   margin-bottom:0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: rgb(236, 228, 228);
+}
+
+.heroBannerJumbotron img {
+  height:100px;
+  width:auto;
+  margin-left:38%;
+  margin-right:auto;
 }
 
 .bannerText {
