@@ -22,12 +22,16 @@ body {
 }
 
 #homeJumbotron {
-  background-color:deepskyblue;
-  height:750px;
+  background-image:url("../images/bernaroo.jpg");
+  height:600px;
   margin-bottom:0px;
 }
 
-#jumbotronText {
+.wellJumbotron {
+  width:60%;
+  margin-top:50px;
+  background-color:deepskyblue;
+  opacity: .9;
   padding-top:70px;
 }
 
