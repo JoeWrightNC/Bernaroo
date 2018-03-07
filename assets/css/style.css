@@ -13,13 +13,13 @@ body {
   margin-bottom:0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #eee;
+  background-color: deepskyblue;
 }
 
 .heroBannerJumbotron img {
   height:100px;
   width:auto;
-  margin-left:2%;
+  margin-left:12%;
   margin-right:auto;
 }
 
@@ -68,6 +68,13 @@ footer {
     margin-right:40px;
   }
 
+  heroBannerJumbotron img {
+    height:100px;
+    width:auto;
+    margin-left:0;
+    margin-right:0;
+  }
+
   .heroBannerContainer img {
     height:150px;
   }
@@ -77,5 +84,13 @@ footer {
     top:-65px;
     left:25px;
     font-size: xx-large;
+  }
+  
+  .wellJumbotron {
+    width:90%;
+    margin-top:50px;
+    background-color:deepskyblue;
+    opacity: .9;
+    padding-top:70px;
   }
 }
