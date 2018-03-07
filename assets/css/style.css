@@ -14,6 +14,7 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: deepskyblue;
+  opacity:9.5;
 }
 
 .heroBannerJumbotron img {
@@ -52,6 +53,24 @@ body {
   background-color:deepskyblue;
   opacity: .9;
   padding-top:70px;
+}
+
+.textJumbotron {
+  width:90%;
+  height:85%;
+  margin-top:50px;
+  background-color:deepskyblue;
+  opacity: .95;
+  padding-top:70px;
+}
+
+.textJumbotronFree {
+  height:auto;
+  background-color:deepskyblue;
+  opacity: .9;
+  padding-top:70px;
+  margin-top:50px;
+
 }
 
 footer {
