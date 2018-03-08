@@ -25,29 +25,29 @@
         <a class="navbar-brand" href="https://instagram.com"><img src="assets/images/instagram.png" alt="instagram" style="height:30px; width:auto; border:0;"></a>
       </div>
   
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="lineup.html">Lineup</a></li>
-          <li><a href="tickets.html">Tickets</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="sponsor.html">Sponsors</a></li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Contact
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="sponsors.html">About Sponsorship</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="vendor.html">About Vending</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="contact.html">General Inquiry</a>
-              </div>
-            </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="lineup.html">Lineup</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="sponsor.html">Sponsors</a></li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contact
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="sponsors.html">About Sponsorship</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="vendor.html">About Vending</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="contact.html">General Inquiry</a>
+                </div>
+              </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
 
@@ -65,13 +65,33 @@
   <!--Main Home Body-->
   <div class="mainBody">
   <section class="jumbotron text-center" id="homeJumbotron">
-    <div class="container well wellJumbotron">
-      <h1 class="jumbotron-heading">Landing Hero Text</h1>
-      <p class="lead">Use this for call to action or to immediately alert someone about some festy news.  Call to action here is common, and this is good for SEO.  Send them on their way with buttons below!</p>
-      <p>
-        <a href="https://google.com" class="btn btn-primary">Get Tickets!</a>
-        <a href="https://google.com" class="btn btn-secondary">Learn More</a>
-      </p>
+    <div class="container well textJumbotronFree">
+      <h1 class="jumbotron-heading">Sponsor Us?</h1>
+      <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Full Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name Here!">
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlSelect1">What do you Vend?</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Food</option>
+                <option>Print Art</option>
+                <option>Jewelry</option>
+                <option>Sculpture/Pottery</option>
+                <option>Other</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlInput1">Email Address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email Here!">
+            </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+    </div>
     </div>
   </section>
   </div>
